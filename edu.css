@@ -1,0 +1,386 @@
+button:hover{
+    transform: scale(1.2);
+}
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgba(247, 225, 178, 0.938)
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5%;
+}
+header a{
+    text-decoration: none;
+    color: rgba(158, 154, 197, 0.466);
+    font-size: 20px;
+    padding-left: 10px; 
+}
+hr{
+    margin: 0px 12.5%;
+}
+div{
+    justify-content: space-around;
+}
+header a:hover{
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+button a{
+    color: white;
+    font-size: 12px;
+    padding: 0px;
+}
+button a:hover{
+    color: white;
+}
+button{
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.3% 1%;
+}
+section{
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding: 0% 5% 0% 5%;
+    justify-content: space-evenly;
+}
+section div h2{
+    font-size: 70px;
+    padding: 8% 0%;
+    padding-top: 15%;
+}
+section div{
+    display: inline;
+}
+h5{
+    color: gray;
+    font-size: 18.5px;
+    padding: 3% 0%;
+}
+input{
+    padding: 3%;
+    padding-right: 50px;
+    border-radius: 5px;
+    border-color: unset;
+    background-color: rgb(204, 242, 247)
+}
+.email button a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.email button{
+    padding: 2% 5%;
+}
+.email{
+    padding: 2% 0%;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6.5% 15% 6.5% 0%;
+}
+.amount h2{
+    font-size: 20px;
+}
+.amount h5{
+    font-size: 15px;
+    align-items: center;
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(212, 234, 245, 0.753);
+    padding: 3% 7.5%;
+    align-items: center;
+    text-align: left;
+}
+.main h2{
+    font-size: 30px;
+    color: grey;
+}
+.main2{
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 2% 2% 2%;
+    background-color: rgba(244, 255, 254, 0.952);
+}
+.join{
+    display: flex;
+    padding: 0% 8%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main2 .box1{
+    background-color: lightblue;
+}
+.main2 div button{
+    text-align: center;
+}
+.main2 h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 5% 0%;
+}
+.box1{
+    padding: 2%;
+    border-radius: 20px;
+}
+.box1 h6{
+    font-size: 15px;
+    padding: 11% 0% 12% 0%;
+}
+.box1 button{
+    padding: 2% 7%;
+    background-color: unset;
+    border-color: deepskyblue;
+}
+.box1 button a{
+    font-size: 18px;
+    text-decoration: none;
+    color: deepskyblue;
+}
+.box1 h3{
+    font-size: 25px;
+}
+.box2{
+    padding: 1.5% 2%;
+    background-color: rgb(252, 233, 218);
+    border-radius: 20px;
+}
+.box2 h6{
+    font-size: 15px;
+    padding: 10% 0%;
+}
+.box2 button{
+    padding: 2% 7%;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+.box2 button a{
+    font-size: 18px;
+    text-decoration: none;
+}
+.box2 h3{
+    font-size: 25px;
+    padding-top: 0.9%;
+}
+.box3{
+    padding: 1.5% 2%;
+    background-color: pink;
+    border-radius: 20px;
+}
+.box3 h6{
+    font-size: 15px;
+    padding: 10% 0%;
+}
+.box3 button{
+    padding: 2% 7%;
+    background-color: unset;
+    border-color: palevioletred;
+}
+.box3 button a{
+    font-size: 18px;
+    text-decoration: none;
+    color: palevioletred;
+}
+.box3 h3{
+    font-size: 25px;
+    padding-top: 0.9%;
+}
+.main3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 10% 5% 5% 5%;
+    background-color: rgb(253, 228, 244);
+}
+.main3 h1{
+    font-size: 45px;
+}
+.main3 h3{
+    font-size: 20px;
+    gap: 5%;
+    padding: 5% 0%;
+    color: rgba(158, 154, 197, 0.466);
+}
+.main3 button{
+    padding: 1% 4%;
+}
+.main3 button a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.main4{
+    display: block;
+    background-color: rgb(252, 248, 251);
+    padding: 5% 0% 5% 0%;
+}
+.main4 h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 2%;
+}
+.main4 div{
+    display: flex;
+    padding: 3%;
+}
+.red{
+    background-color: rgba(212, 234, 245, 0.753);
+}
+.blue{
+    background-color: rgba(212, 234, 245, 0.753);
+}
+.green{
+    background-color: rgb(255, 194, 242);
+}
+.orange{
+    background-color: rgb(255, 194, 242);
+}
+.yellow{
+    background-color: rgb(255, 240, 174);
+}
+.voilet{
+    background-color: rgb(255, 240, 174);
+}
+.main4 .one div{
+    padding: 1.5%;
+    border-radius: 5px;
+}
+.main4 .sec div{
+    padding: 1.5%;
+    border-radius: 5px;
+}
+.main4 .wrapper{
+    display: block;
+}
+.main4 .one{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 7% 0% 7%;
+}
+.main4 .sec{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 7% 0% 7%;
+}
+.for{
+    display: block;
+    align-items: center;
+    padding-bottom: 10%;
+    justify-content: space-evenly;
+    background-color: rgb(253, 228, 244);
+}
+.for h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 5% 0% 0% 0%;
+}
+.for h5{
+    font-size: 12px;
+}
+.wrapper2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5% 3% 5% 3%;
+}
+.info1{
+    background-color: rgb(255, 247, 203);
+    padding: 3.5% 3% 3.5% 2%;
+    border-radius: 15px;
+}
+.info2{
+    background-color: rgba(212, 234, 245, 0.753);
+    padding: 3.5% 2%;
+    border-radius: 15px;
+}
+.info3{
+    background-color: rgb(241, 201, 222);
+    padding: 3.5% 3% 3.5% 2%;
+    border-radius: 15px;
+}
+p{
+    font-size: 10px;
+}
+.for span{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 0%;
+    padding: 0% 45%;
+}
+.wan p{
+    color: black;
+    font-size: 20px;
+}
+.tuu p{
+    color: white;
+    font-size: 20px;
+}
+.span button{
+    padding: 2%;
+}
+.for span button:nth-of-type(1){
+    background-color: unset;
+}
+.main5{
+    display: block;
+    padding: 0% 0% 5% 0%;
+    background-color: rgb(255, 246, 254);
+}
+.main5 h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 5% 0%;
+}
+.main5 input{
+    padding: 2% 4%;
+    background-color: unset;
+    border-top-color: unset;
+    border-bottom-color: slategray;
+}
+.main5 nav{
+    display: block;
+}
+.main5 nav div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 30%;
+    align-items: center;
+    text-align: left;
+}
+.main5 button{
+    padding: 1.8% 10% 1.8% 10%;
+}
+.main5 button a{
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 6.5%;
+    align-items: flex-start;
+    background-color: rgb(253, 228, 244);
+}
+footer h4{
+    padding: 5% 0%;
+}
+footer h1{
+    padding-bottom: 10%;
+}
+footer img{
+    border-radius: 100px;
+}
